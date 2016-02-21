@@ -1,0 +1,10 @@
+New log file opened at Sun Feb 21 14:13:04 EST 2016 by 98695@wide.local
+Taking next connection to: 59867
+New client attempting to connect on port: 59868-59867
+  Address = /10.0.1.3:59867
+This client on port 59868 has uuid 8f1d5e17-0157-4106-9434-12c0ccceeb9b configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-8f1d5e17-0157-4106-9434-12c0ccceeb9b
+Taking next connection to: 59867
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 59867

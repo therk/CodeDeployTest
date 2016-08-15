@@ -1,3 +1,7 @@
+import com.github.tptodorov.sbt.cloudformation.CloudFormation
+import com.github.tptodorov.sbt.cloudformation.Import.Keys._
+import com.github.tptodorov.sbt.cloudformation.Import.Configurations._
+
 name := """play-scala-intro"""
 
 version := "1.0-SNAPSHOT"
@@ -92,5 +96,8 @@ codedeployPermissionMappings := Seq(
     group = "root"
   )
 )
+
+CloudFormation.defaultSettings
+stackRegion := "US_EAST_1"
 
 fork in run := true
